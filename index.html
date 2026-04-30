@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="Portfólio de Athos Martins, desenvolvedor backend Python com interesse em APIs, automação e soluções web."
+  />
+  <meta name="theme-color" content="#0d1117" />
+  <meta property="og:title" content="Athos Martins | Backend Developer" />
+  <meta
+    property="og:description"
+    content="Conheça minha trajetória, tecnologias, projetos e formas de contato."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/perfil.jpeg" />
+  <title>Athos Martins | Backend Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo" data-i18n="skip_link">Pular para o conteúdo</a>
+
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-outline" aria-hidden="true"></div>
+
+  <div id="loading-screen" role="status" aria-live="polite">
+    <div class="loader-content">
+      <div class="progress-circle" aria-hidden="true">
+        <svg width="120" height="120" viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="50" class="bg"></circle>
+          <circle cx="60" cy="60" r="50" class="progress"></circle>
+        </svg>
+        <span id="progress-text">0%</span>
+      </div>
+
+      <h2>Athos Martins</h2>
+      <p data-i18n="loading_text">Carregando portfólio...</p>
+    </div>
+  </div>
+
+  <header class="site-header" id="inicio">
+    <nav class="navbar" aria-label="Navegação principal" data-i18n-aria-label="nav_label">
+      <a class="logo" href="#inicio" aria-label="Voltar ao início" data-i18n-aria-label="logo_label">
+        <span>Athos</span> Martins
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#sobre" data-i18n="nav_about">Sobre</a></li>
+        <li><a href="#tecnologias" data-i18n="nav_tech">Tecnologias</a></li>
+        <li><a href="#projetos" data-i18n="nav_projects">Projetos</a></li>
+        <li><a href="#contato" data-i18n="nav_contact">Contato</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button
+          id="lang-toggle"
+          class="lang-btn"
+          type="button"
+          aria-label="Switch to English"
+          data-i18n-aria-label="lang_label"
+        >
+          EN
+        </button>
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          type="button"
+          aria-controls="nav-menu"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+          data-i18n-aria-label="menu_open"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="eyebrow" data-i18n="hero_greeting">Olá, eu sou</p>
+        <h1 id="hero-title">Athos Martins</h1>
+        <p class="hero-role" data-i18n="hero_role">Python Backend Developer</p>
+
+        <p class="description" data-i18n="hero_description">
+          Desenvolvo soluções backend com Python, APIs e automações, unindo lógica,
+          organização e vontade constante de aprender.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projetos" class="btn primary" data-i18n="btn_projects">Ver projetos</a>
+          <a href="#contato" class="btn secondary" data-i18n="btn_contact">Contato</a>
+        </div>
+
+        <div class="social-strip" aria-label="Links profissionais" data-i18n-aria-label="social_label">
+          <a href="https://github.com/athosnm" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/athos-martins-90113930b/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="profile-frame">
+          <img
+            src="img/perfil.jpeg"
+            alt="Foto de Athos Martins"
+            width="420"
+            height="420"
+            decoding="async"
+          />
+          <span class="status-pill" data-i18n="hero_status">Foco atual: backend com Python</span>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main id="conteudo">
+    <section id="sobre" class="section about-section fade-in">
+      <div class="section-heading">
+        <span data-i18n="about_label">Perfil</span>
+        <h2 data-i18n="about_title">Sobre mim</h2>
+      </div>
+
+      <div class="section-content">
+        <p data-i18n="about_text_1">
+          Sou estudante do 3º ano do Ensino Médio e estou construindo minha carreira na área de tecnologia,
+          com foco em desenvolvimento backend utilizando Python.
+        </p>
+
+        <p data-i18n="about_text_2">
+          Tenho interesse em APIs, automação, desenvolvimento web, lógica de programação e boas práticas
+          para criação de sistemas eficientes e organizados.
+        </p>
+
+        <ul class="profile-highlights" aria-label="Destaques do perfil" data-i18n-aria-label="highlights_label">
+          <li>
+            <strong data-i18n="highlight_1_title">Backend</strong>
+            <span data-i18n="highlight_1_text">Python, APIs REST e regras de negócio.</span>
+          </li>
+          <li>
+            <strong data-i18n="highlight_2_title">Automação</strong>
+            <span data-i18n="highlight_2_text">Scripts para reduzir tarefas repetitivas.</span>
+          </li>
+          <li>
+            <strong data-i18n="highlight_3_title">Base web</strong>
+            <span data-i18n="highlight_3_text">HTML, CSS e JavaScript para interfaces responsivas.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="tecnologias" class="section fade-in">
+      <div class="section-heading">
+        <span data-i18n="tech_label">Stack</span>
+        <h2 data-i18n="tech_title">Tecnologias</h2>
+      </div>
+
+      <div class="tech-grid" aria-label="Tecnologias utilizadas" data-i18n-aria-label="tech_list_label">
+        <span>Python</span>
+        <span>Django</span>
+        <span>REST APIs</span>
+        <span>Node.js</span>
+        <span>JavaScript</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Docker</span>
+        <span>Git</span>
+        <span>GitHub</span>
+        <span>VS Code</span>
+      </div>
+    </section>
+
+    <section id="projetos" class="section fade-in">
+      <div class="section-heading">
+        <span data-i18n="projects_label">Entrega</span>
+        <h2 data-i18n="projects_title">Projetos</h2>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number">01</span>
+            <span class="project-tag">Python</span>
+          </div>
+          <h3 data-i18n="project_1_title">Sistema de Cadastro de Pessoas</h3>
+          <p data-i18n="project_1_desc">
+            Sistema em Python para cadastrar, listar, buscar e remover pessoas,
+            utilizando lógica de programação e estrutura de dados.
+          </p>
+          <ul class="project-points">
+            <li data-i18n="project_1_point_1">Fluxo CRUD organizado</li>
+            <li data-i18n="project_1_point_2">Validações de entrada</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-number">02</span>
+            <span class="project-tag">Python</span>
+          </div>
+          <h3 data-i18n="project_2_title">Calculadora em Python</h3>
+          <p data-i18n="project_2_desc">
+            Calculadora com operações básicas, validações e estrutura de repetição,
+            desenvolvida para praticar lógica e funções.
+          </p>
+          <ul class="project-points">
+            <li data-i18n="project_2_point_1">Funções reutilizáveis</li>
+            <li data-i18n="project_2_point_2">Tratamento de erros simples</li>
+          </ul>
+        </article>
+
+        <article class="project-card featured-project">
+          <div class="project-top">
+            <span class="project-number">03</span>
+            <span class="project-tag">Node.js</span>
+          </div>
+          <h3 data-i18n="project_3_title">Gerador de Pix com QR Code</h3>
+          <p data-i18n="project_3_desc">
+            Sistema freelancer desenvolvido para a Zero18Modas, utilizando Node.js
+            e integração com API para geração automática de Pix em QR Code.
+          </p>
+          <ul class="project-points">
+            <li data-i18n="project_3_point_1">Integração com API</li>
+            <li data-i18n="project_3_point_2">Geração automática de QR Code</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact-section fade-in">
+      <div class="section-heading centered">
+        <span data-i18n="contact_label">Contato</span>
+        <h2 data-i18n="contact_title">Vamos nos conectar?</h2>
+      </div>
+      <p data-i18n="contact_text">
+        Estou aberto a trocar ideias sobre backend, projetos e oportunidades de aprendizado.
+      </p>
+
+      <div class="contact-links" aria-label="Links de contato" data-i18n-aria-label="contact_links_label">
+        <a href="https://github.com/athosnm" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/athos-martins-90113930b/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          LinkedIn
+        </a>
+        <a href="mailto:nascimentoathos9@gmail.com">Email</a>
+        <button
+          class="contact-button"
+          type="button"
+          data-copy-email="nascimentoathos9@gmail.com"
+          data-i18n="contact_copy"
+        >
+          Copiar email
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="footer_text">© 2026 Athos Martins. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
