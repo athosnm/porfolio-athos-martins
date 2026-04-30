@@ -4,7 +4,8 @@
 
 ## Preview
 
-![Preview do portfólio](img/preview.png)
+<img width="1421" height="795" alt="preview" src="https://github.com/user-attachments/assets/03b6852f-a781-4fe3-ba23-080226e7f362" />
+
 
 ## Português
 
