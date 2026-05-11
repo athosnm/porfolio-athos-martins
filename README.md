@@ -4,7 +4,7 @@
 
 ## Preview
 
-<img width="1421" height="795" alt="preview" src="https://github.com/user-attachments/assets/03b6852f-a781-4fe3-ba23-080226e7f362" />
+![Preview](./img/preview.png)
 
 
 ## Português
