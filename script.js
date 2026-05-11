@@ -25,6 +25,7 @@ const translations = {
     hero_status: "Foco atual: backend com Python",
     btn_projects: "Ver projetos",
     btn_contact: "Contato",
+    btn_resume: "Baixar currículo",
 
     about_label: "Perfil",
     about_title: "Sobre mim",
@@ -100,6 +101,7 @@ const translations = {
     hero_status: "Current focus: Python backend",
     btn_projects: "View projects",
     btn_contact: "Contact",
+    btn_resume: "Download resume",
 
     about_label: "Profile",
     about_title: "About me",

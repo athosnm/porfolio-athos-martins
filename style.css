@@ -343,23 +343,20 @@ button {
   transform: translateY(-2px);
 }
 
-.primary {
-  background: var(--accent);
-  color: #06110f;
-}
-
-.primary:hover {
-  background: #5eead4;
-}
-
-.secondary {
-  border: 1px solid rgba(245, 158, 11, 0.48);
+.primary,
+.secondary,
+.resume-btn {
+  background: transparent;
   color: var(--text-main);
+  border: 1px solid rgba(245, 158, 11, 0.48);
 }
 
-.secondary:hover {
+.primary:hover,
+.secondary:hover,
+.resume-btn:hover {
   background: rgba(245, 158, 11, 0.1);
   border-color: var(--accent-warm);
+  color: var(--text-main);
 }
 
 .social-strip {
@@ -858,3 +855,4 @@ footer {
     transform: none;
   }
 }
+
